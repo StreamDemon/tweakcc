@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 - Fix over-escaping of backslashes in backtick-delimited system prompts that produced invalid JS and crashed Claude Code at startup (#870) - @StreamDemon
+- Fix React variable resolution for Claude Code 2.1.209 and later, restoring the patches-applied indication, conversation-title, and toolsets patches (modules are now wrapped in function expressions rather than arrow functions) (#TBD) - @StreamDemon
 
 ## [v4.3.1](https://github.com/Piebald-AI/tweakcc/releases/tag/v4.3.1) - 2026-07-06
 
